@@ -1,19 +1,11 @@
-class vehicle:
-    def info(self):
-        print("This vehicle")
+#polymorphism in built-in length function
 
-class Car(vehicle):
-    def car_info(self, name):
-             print("Car name is:", name)
+student = ['sai','jessa','kelly']
 
-class Truck(vehicle):  
-    def truck_info(self, name):
-            print("Truck name is:", name)
+school = 'ABC school'
+name = ['tt','yy','rr','hh']
 
-obj1 = Car()
-obj1.info()
-obj1.car_info('BMW')
-
-obj2 = Truck()
-obj2.info()
-obj2.truck_info('Ford')
+#calculate count
+print(len(student))
+print(len(school))
+print(len(name))
